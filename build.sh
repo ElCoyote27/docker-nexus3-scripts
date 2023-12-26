@@ -1,6 +1,7 @@
 #!/bin/sh
+# /net/imladris/export/home/raistlin/World/Vincent/Code/GIT/docker-nexus3-scripts/build.sh
 
-NEXUS_GIT_DIR=/root/docker-nexu3
+NEXUS_GIT_DIR=/root/docker-nexus3
 #NEXUS_VERSION=3.58.1
 NEXUS_VERSION=3.63.0
 

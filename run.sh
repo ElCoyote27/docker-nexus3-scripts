@@ -1,4 +1,6 @@
 #!/bin/sh
+# /net/imladris/export/home/raistlin/World/Vincent/Code/GIT/docker-nexus3-scripts/run.sh
+
 NAME=krynn-nexus3
 MYIP=10.88.0.121
 export DOCKER_ID="$(docker ps -aq --filter name=${NAME})"
