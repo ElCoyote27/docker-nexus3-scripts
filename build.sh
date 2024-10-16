@@ -2,7 +2,7 @@
 # /net/imladris/export/home/raistlin/World/Vincent/Code/GIT/docker-nexus3-scripts/build.sh
 
 NEXUS_GIT_DIR=/root/docker-nexus3
-NEXUS_VERSION=3.72.0
+NEXUS_VERSION=3.73.0
 NEXUS_DOCKERFILE=Dockerfile.rh.ubi.java17
 
 #
