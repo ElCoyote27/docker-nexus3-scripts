@@ -17,6 +17,10 @@ else
 	-p ${MYIP}:18003:18003 \
 	-p ${MYIP}:18004:18004 \
 	-p ${MYIP}:18005:18005 \
+	-p ${MYIP}:18006:18006 \
+	-p ${MYIP}:18007:18007 \
+	-p ${MYIP}:18008:18008 \
+	-p ${MYIP}:18009:18009 \
 	-p ${MYIP}:18010:18010 \
 	-v /nexus-data:/nexus-data \
 	--name ${NAME} \
@@ -27,5 +31,6 @@ fi
 #	--network=host \
 #
 # podman generate systemd --restart-policy=always -t 1 krynn-nexus3 > /etc/systemd/system/krynn-nexus3.service
+# systemctl enable daemon-reload
 # systemctl enable --now krynn-nexus3.service
 
