@@ -11,17 +11,7 @@ else
 	docker run \
 	-d --privileged --cap-add=NET_ADMIN \
 	-p ${MYIP}:8081:8081 \
-	-p ${MYIP}:18000:18000 \
-	-p ${MYIP}:18001:18001 \
-	-p ${MYIP}:18002:18002 \
-	-p ${MYIP}:18003:18003 \
-	-p ${MYIP}:18004:18004 \
-	-p ${MYIP}:18005:18005 \
-	-p ${MYIP}:18006:18006 \
-	-p ${MYIP}:18007:18007 \
-	-p ${MYIP}:18008:18008 \
-	-p ${MYIP}:18009:18009 \
-	-p ${MYIP}:18010:18010 \
+	-p ${MYIP}:18000-18010:18000-18010 \
 	-v /nexus-data:/nexus-data \
 	--name ${NAME} \
 	--ip ${MYIP} \
