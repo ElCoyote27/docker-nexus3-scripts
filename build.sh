@@ -3,14 +3,14 @@
 
 NEXUS_GIT_DIR=/usr/src/docker-nexus3
 NEXUS_VERSION=3.78.1
-NEXUS_DOCKERFILE=Dockerfile.rh.ubi.java17
+NEXUS_DOCKERFILE=Dockerfile.java17
 
 #
 cd ${NEXUS_GIT_DIR} || exit 127
 
 git reset --hard
 git checkout main
-git pull
+git pull origin main
 git checkout ${NEXUS_VERSION}
 
 # Workaround
